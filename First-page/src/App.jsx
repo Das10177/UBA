@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import "./App.css";
-import Ticker from "./Components/Tricker";
+// import Ticker from "./Components/Tricker";
 
 function App() {
   // eslint-disable-next-line no-unused-vars
@@ -16,7 +16,7 @@ function App() {
   return (
   <Router>
     <Navbar/>
-    <Ticker/>
+    {/* <Ticker/> */}
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/About" element={<About />} /> 

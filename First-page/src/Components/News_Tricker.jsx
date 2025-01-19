@@ -1,5 +1,5 @@
 import { ReactTicker } from "@guna81/react-ticker";
-import "./styles.css";
+// import "./styles.css";
 
 export default function News_Tricker() {
   const data = [
@@ -9,17 +9,17 @@ export default function News_Tricker() {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-      id: 1,
+      id: 2,
       value:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-      id: 1,
+      id: 3,
       value:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-      id: 1,
+      id: 4,
       value:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
@@ -44,6 +44,7 @@ export default function News_Tricker() {
       <div>
         <ReactTicker
           data={data.map((item) => item.value)}
+          component={renderItem}
           speed={20}
           keyName="_id"
           tickerStyle={{
@@ -62,26 +63,7 @@ export default function News_Tricker() {
         />
       </div>
 
-      <h1 style={{ textAlign: "center" }}>React Ticker Examble</h1>
-
-      {/* using custom ticker item component */}
-      <ReactTicker
-        data={data}
-        component={renderItem}
-        speed={40}
-        keyName="_id"
-        tickerStyle={{
-          position: "fixed",
-          bottom: 25,
-          left: "0",
-          width: "100%",
-          height: "40px",
-          backgroundColor: "#fff",
-          zIndex: 99,
-          borderTop: "1px solid #e0e0e0",
-        }}
-        tickerClassName="news-ticker"
-      />
+      
     </div>
   );
 }

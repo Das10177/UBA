@@ -10,6 +10,11 @@ const Navbar = () => {
           <img src={logo} alt="Logo" className="w-full h-20 object-cover" />
         </Link> */}
         {/* <div className="text-white text-2xl font-bold">My Website</div> */}
+        {/* <img
+          src="https://plus.unsplash.com/premium_photo-1661876402729-09f3b7e87640?q=80&w=2047&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="logo"
+          className="w-20 h-20 object-cover"
+        /> */}
         <ul className="flex space-x-6">
           <li>
             <Link to="/" className="text-white text-xl hover:text-red-300">
