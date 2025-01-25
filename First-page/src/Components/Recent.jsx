@@ -50,7 +50,8 @@ const recentPosts = [
     title: "Post 6",
     body: "This is the body of post 6",
     date: "2022-01-06",
-    thumbnail: "https://via.placeholder.com/150",
+    thumbnail:
+      "https://images.unsplash.com/photo-1737251043885-1fa62cb12933?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     author: "Author 6",
   },
   {
@@ -58,7 +59,8 @@ const recentPosts = [
     title: "Post 7",
     body: "This is the body of post 7",
     date: "2022-01-07",
-    thumbnail: "https://via.placeholder.com/150",
+    thumbnail:
+      "https://images.unsplash.com/photo-1737251043885-1fa62cb12933?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     author: "Author 7",
   },
 ];
