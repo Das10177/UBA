@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // import logo from "../assets/logo.png";
 const Navbar = () => {
   return (
-    <nav className="bg-gray-500 p-4 sticky top-0 z-10">
+    <nav className="bg-gray-500 p-4 sticky top-0 top-0 z-10">
       <div className="container mx-auto flex justify-between items-center">
         {/* <Link to="/">
           <img src={logo} alt="Logo" className="w-full h-20 object-cover" />
