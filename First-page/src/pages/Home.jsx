@@ -7,8 +7,7 @@ import styled from "styled-components";
 // import paggination from "../Components/paggination";
 // import Recent from "../Components/Recent";
 
-
-
+import Post from "../Components/Post";
 
 
 const WhatsAppIcon = styled(FontAwesomeIcon)`
@@ -20,6 +19,9 @@ const WhatsAppIcon = styled(FontAwesomeIcon)`
   
 
 `;
+
+
+
 
 const Home = () => {
   return (
@@ -48,10 +50,7 @@ const Home = () => {
                   <div className="w-100 relative h-20 border border-red-200  ">
                     blog inside this
                   </div>
-                  <div className="w-100 h-20 border border-red-200  ">
-                    blog inside this
-                  </div>
-                  <div className="w-100 h-20 border border-red-200  ">
+                  <Post/>                  <div className="w-100 h-20 border border-red-200  ">
                     blog inside this
                   </div>
                   <div className="w-100 h-20 border border-red-200  ">
@@ -84,3 +83,4 @@ const Home = () => {
 };
 
 export default Home;
+
